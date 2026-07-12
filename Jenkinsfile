@@ -30,7 +30,7 @@ pipeline {
             echo 'I will always say hello again!'
             cleanWs()
         }
-        sucess{
+        success{
             echo 'I will run if sucess'
 
         }
