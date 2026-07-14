@@ -39,20 +39,6 @@ pipeline {
                     """
                 }
             }
-        }   
-
-    stages {
-        stage('Build') {
-            steps {
-                script{
-                    sh '''
-                        echo "Building"
-                        echo $COURSE
-                        sleep 10
-                        env
-                    '''
-                 }
-            }
         }
 
         stage('Test') {
